@@ -14,7 +14,7 @@ def get_used_memory():
 
 os.environ["XLA_PYTHON_CLIENT_PREALLOCATE"] = "false"
 initial_used = get_used_memory()
-N = int(2*10**8)
+N = int(1.1*10**8)
 
 
 def f(x,c):
